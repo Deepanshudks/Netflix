@@ -260,6 +260,7 @@ footer{
 @media screen and (max-width:560px) {
     .main{
         width: 556px;
+         height: 80vh;
     }
     .main nav{
         flex-wrap: wrap;
