@@ -10,6 +10,12 @@ body{
     background-color: black;
     
 }
+.logo{
+    display: flex;
+    flex-flow: column;
+    color: white;
+    z-index: 5;
+}
 .main{
     background: url(assests/img/bg1.jpg) center center/cover no-repeat;
     background-size: max(1200px,100vw);
@@ -264,6 +270,9 @@ footer{
     }
     .main nav{
         flex-wrap: wrap;
+    }
+    .logo{
+        font-size: 8px;
     }
     .btn{
         font-size: 10px;
